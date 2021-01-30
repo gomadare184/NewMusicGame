@@ -51,6 +51,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\test.cs" />
+     <Compile Include="Assets\Scripts\SceneMove.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/NewMusicGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -612,6 +613,12 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/JetBrains/JetBrains Rider 2019.3.1/2020.1.4f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{354bb546-e73b-b81a-9b68-6271e4dceb67}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
