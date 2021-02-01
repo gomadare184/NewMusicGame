@@ -50,8 +50,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\test.cs" />
-     <Compile Include="Assets\Scripts\SceneMove.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\08_GridView\Alignment.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\03_InfiniteScroll\Cell.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\09_LoadTexture\TextureLoader.cs" />
@@ -63,6 +61,7 @@
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\06_LoopTabBar\Example06.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\06_LoopTabBar\Context.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\07_ScrollRect\Context.cs" />
+     <Compile Include="Assets\Scripts\test.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\07_ScrollRect\Alignment.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\02_FocusOn\Example02.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\06_LoopTabBar\Window.cs" />
@@ -82,6 +81,7 @@
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\01_Basic\Cell.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\01_Basic\Example01.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\05_Voronoi\ItemData.cs" />
+     <Compile Include="Assets\Scripts\SceneMove.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\08_GridView\Example08.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\04_Metaball\Cell.cs" />
      <Compile Include="Assets\FancyScrollView-master\Assets\FancyScrollView\Examples\Sources\03_InfiniteScroll\ScrollView.cs" />
@@ -672,13 +672,13 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UniRx.csproj">
-      <Project>{354bb546-e73b-b81a-9b68-6271e4dceb67}</Project>
-      <Name>UniRx</Name>
-    </ProjectReference>
     <ProjectReference Include="FancyScrollView.Editor.csproj">
       <Project>{c2e085b9-fcb2-e9e0-11f9-c60c804c06ce}</Project>
       <Name>FancyScrollView.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{354bb546-e73b-b81a-9b68-6271e4dceb67}</Project>
+      <Name>UniRx</Name>
     </ProjectReference>
     <ProjectReference Include="FancyScrollView.csproj">
       <Project>{851959df-c321-0f3c-07be-0daba1dca683}</Project>

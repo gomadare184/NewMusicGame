@@ -6,6 +6,129 @@
     <e p="D:\NewMusicGame" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="FancyScrollView-master" t="Include">
+          <e p="Assets" t="Include">
+            <e p="FancyScrollView" t="Include">
+              <e p="Examples" t="Include">
+                <e p="Sources" t="Include">
+                  <e p="01_Basic" t="Include">
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Example01.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                  </e>
+                  <e p="02_FocusOn" t="Include">
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example02.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                  </e>
+                  <e p="03_InfiniteScroll" t="Include">
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example03.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                  </e>
+                  <e p="04_Metaball" t="Include">
+                    <e p="Background.cs" t="Include" />
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example04.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="Metaball.hlsl" t="Include" />
+                    <e p="Metaball.shader" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                  </e>
+                  <e p="05_Voronoi" t="Include">
+                    <e p="Background.cs" t="Include" />
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example05.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                    <e p="Voronoi.hlsl" t="Include" />
+                    <e p="Voronoi.shader" t="Include" />
+                  </e>
+                  <e p="06_LoopTabBar" t="Include">
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example06.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                    <e p="SlideScreenTransition.cs" t="Include" />
+                    <e p="Tab.cs" t="Include" />
+                    <e p="Window.cs" t="Include" />
+                  </e>
+                  <e p="07_ScrollRect" t="Include">
+                    <e p="Alignment.cs" t="Include" />
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example07.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                  </e>
+                  <e p="08_GridView" t="Include">
+                    <e p="Alignment.cs" t="Include" />
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example08.cs" t="Include" />
+                    <e p="GridView.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                  </e>
+                  <e p="09_LoadTexture" t="Include">
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Example09.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                    <e p="TextureLoader.cs" t="Include" />
+                  </e>
+                  <e p="Common" t="Include">
+                    <e p="Common.cginc" t="Include" />
+                    <e p="ScenesDropdown.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Sources" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="FancyScrollView.Editor.asmdef" t="Include" />
+                  <e p="ScrollerEditor.cs" t="Include" />
+                </e>
+                <e p="Runtime" t="Include">
+                  <e p="Core" t="Include">
+                    <e p="FancyCell.cs" t="Include" />
+                    <e p="FancyScrollView.cs" t="Include" />
+                  </e>
+                  <e p="FancyScrollView.asmdef" t="Include" />
+                  <e p="GridView" t="Include">
+                    <e p="FancyCellGroup.cs" t="Include" />
+                    <e p="FancyGridView.cs" t="Include" />
+                    <e p="FancyGridViewCell.cs" t="Include" />
+                    <e p="FancyGridViewContext.cs" t="Include" />
+                    <e p="IFancyCellGroupContext.cs" t="Include" />
+                    <e p="IFancyGridViewContext.cs" t="Include" />
+                  </e>
+                  <e p="Scroller" t="Include">
+                    <e p="EasingCore.cs" t="Include" />
+                    <e p="MovementDirection.cs" t="Include" />
+                    <e p="MovementType.cs" t="Include" />
+                    <e p="ScrollDirection.cs" t="Include" />
+                    <e p="Scroller.cs" t="Include" />
+                  </e>
+                  <e p="ScrollRect" t="Include">
+                    <e p="FancyScrollRect.cs" t="Include" />
+                    <e p="FancyScrollRectCell.cs" t="Include" />
+                    <e p="FancyScrollRectContext.cs" t="Include" />
+                    <e p="IFancyScrollRectContext.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="ProjectSettings" t="Include">
+            <e p="ProjectVersion.txt" t="Include" />
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="UniRx" t="Include">
             <e p="Examples" t="Include">
@@ -291,6 +414,8 @@
           <e p="test.cs" t="Include" />
         </e>
       </e>
+      <e p="FancyScrollView.csproj" t="IncludeRecursive" />
+      <e p="FancyScrollView.Editor.csproj" t="IncludeRecursive" />
       <e p="NewMusicGame.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

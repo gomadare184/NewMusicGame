@@ -31,12 +31,18 @@ namespace FancyScrollView.Example03
         public override void UpdateContent(ItemData itemData)
         {
             message.text = itemData.Message;
-            messageLarge.text = Index.ToString();
+            //messageLarge.text = Index.ToString();
+            image.sprite = itemData.Image;
+            imageLarge.sprite = itemData.Image;
 
             var selected = Context.SelectedIndex == Index;
-            imageLarge.color = image.color = selected
-                ? new Color32(0, 255, 255, 100)
+            
+            image.color = selected
+                ? new Color32(255, 255, 255, 100)
                 : new Color32(255, 255, 255, 77);
+            imageLarge.color = selected
+                ? new Color32(255, 255, 255, 255)
+                : new Color32(255, 255, 255, 0);
         }
 
         public override void UpdatePosition(float position)

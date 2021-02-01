@@ -11,13 +11,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/Example03.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/ScrollView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/Cell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Sources/Runtime/Scroller/Scroller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/ItemData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/Context.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/RouletteController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/Example03.cs" />
+        <option value="$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/ItemData.cs" />
+        <option value="$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/Cell.cs" />
       </list>
     </option>
   </component>
@@ -70,7 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1611918961632</updated>
       <workItem from="1611918967837" duration="494000" />
-      <workItem from="1612007543183" duration="1878000" />
+      <workItem from="1612007543183" duration="2472000" />
+      <workItem from="1612122718225" duration="7731000" />
     </task>
     <servers />
   </component>
